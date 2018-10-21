@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>output_new_user</name>
+        <value>com.qianfeng.analystic.mr.nu.NewUserOuputWritter</value>
+    </property>
+    <property>
+        <name>output_browser_new_user</name>
+        <value>com.qianfeng.analystic.mr.nu.NewUserOuputWritter</value>
+    </property>
+
+    <property>
+        <name>output_active_user</name>
+        <value>com.qianfeng.analystic.mr.ac.ActiveUserOutputWritter</value>
+    </property>
+
+    <property>
+        <name>output_browser_active_user</name>
+        <value>com.qianfeng.analystic.mr.ac.ActiveUserOutputWritter</value>
+    </property>
+
+    <property>
+        <name>output_active_member</name>
+        <value>com.qianfeng.analystic.mr.am.ActiveMemberOuputWrtter</value>
+    </property>
+
+    <property>
+        <name>output_browser_active_member</name>
+        <value>com.qianfeng.analystic.mr.am.ActiveMemberOuputWrtter</value>
+    </property>
+    <property>
+        <name>output_new_member</name>
+        <value>com.qianfeng.analystic.mr.nm.NewMemberOuputWrtter</value>
+    </property>
+
+    <property>
+        <name>output_browser_new_member</name>
+        <value>com.qianfeng.analystic.mr.nm.NewMemberOuputWrtter</value>
+    </property>
+
+    <property>
+        <name>output_member_info</name>
+        <value>com.qianfeng.analystic.mr.nm.NewMemberOuputWrtter</value>
+    </property>
+
+    <property>
+        <name>output_session</name>
+        <value>com.qianfeng.analystic.mr.session.SessionOutputWritter</value>
+    </property>
+
+    <property>
+        <name>output_browser_session</name>
+        <value>com.qianfeng.analystic.mr.session.SessionOutputWritter</value>
+    </property>
+
+    <property>
+        <name>output_hourly_active_user</name>
+        <value>com.qianfeng.analystic.mr.au.ActiveUserOuputWrtter</value>
+    </property>
+
+    <property>
+        <name>output_pageview</name>
+        <value>com.qianfeng.analystic.mr.pv.PageviewOuputWrtter</value>
+    </property>
+
+    <property>
+        <name>output_local</name>
+        <value>com.qianfeng.analystic.mr.local.LocalOuputWrtter</value>
+    </property>
+</configuration>
